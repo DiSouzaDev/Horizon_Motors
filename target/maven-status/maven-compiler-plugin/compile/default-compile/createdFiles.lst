@@ -1,3 +1,11 @@
+com\motors\horizon\connection\ConnectionFactory.class
+com\motors\horizon\view\LoginHorizonMotors$4.class
 com\motors\horizon\horizonmotors\Horizonmotors.class
-LoginHorizonMotors$1.class
-LoginHorizonMotors.class
+com\motors\horizon\model\dao\UsuarioDao.class
+com\motors\horizon\view\LoginHorizonMotors$2.class
+com\motors\horizon\view\LoginHorizonMotors$5.class
+com\motors\horizon\view\LoginHorizonMotors.class
+com\motors\horizon\view\LoginHorizonMotors$3.class
+com\motors\horizon\model\bean\Usuario.class
+com\motors\horizon\view\LoginHorizonMotors$6.class
+com\motors\horizon\view\LoginHorizonMotors$1.class

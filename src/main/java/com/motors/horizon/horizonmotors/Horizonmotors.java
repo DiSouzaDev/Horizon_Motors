@@ -4,6 +4,8 @@
 
 package com.motors.horizon.horizonmotors;
 
+import com.motors.horizon.view.LoginHorizonMotors;
+
 /**
  *
  * @author 823214424
@@ -11,6 +13,8 @@ package com.motors.horizon.horizonmotors;
 public class Horizonmotors {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        LoginHorizonMotors loginView = new LoginHorizonMotors();
+        
+        loginView.setVisible(true);
     }
 }
