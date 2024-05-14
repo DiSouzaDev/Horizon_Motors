@@ -42,6 +42,7 @@ CREATE TABLE IF NOT EXISTS `Funcionarios` (
 );
 
 ALTER TABLE `Agendamento` ADD CONSTRAINT `Agendamento_fk3` FOREIGN KEY (`id_usuario`) REFERENCES `Usuario`(`id_usuario`);
+
 ALTER TABLE `Agendamento` ADD CONSTRAINT `Agendamento_fk4` FOREIGN KEY (`id_carro`) REFERENCES `Carro`(`id_carro`);
 ALTER TABLE `Funcionarios` ADD CONSTRAINT `Funcionarios_fk3` FOREIGN KEY (`id_carro`) REFERENCES `Carro`(`id_carro`);
 

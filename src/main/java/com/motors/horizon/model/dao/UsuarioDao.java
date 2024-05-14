@@ -11,6 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -19,15 +20,40 @@ import java.util.logging.Logger;
 // Para adicionar novos usuarios - INCOMPLETO
 public class UsuarioDao {
 
-    public void createUsuario() {
+    public void createUsuario(String nome, String senha, String email, String cpf, String telefone) {
         Connection con = new ConnectionFactory().getConnection();
 
         PreparedStatement stmt = null;
 
         try {
-            stmt = con.prepareStatement("");
+            stmt = con.prepareStatement("insert into Usuario (nome_usuario, senha_usuario, tipo_usuario, email_usuario, cpf_usuario, telefone_usuario) values (?, ?, 'comum', ?, ?, ?)");
+            stmt.setString(1, nome);
+            stmt.setString(2, senha);
+            stmt.setString(3, email);
+            stmt.setString(4, cpf);
+            stmt.setString(5, telefone);
+
+            System.out.print(stmt);
+
+            int rowsAffected = stmt.executeUpdate();
+
+            if (rowsAffected > 0) {
+                JOptionPane.showMessageDialog(null, "Usuário Cadastrado com sucesso!");
+            } else {
+                JOptionPane.showMessageDialog(null, "Algo saiu errado, tente novamente!");
+            }
+
         } catch (SQLException ex) {
             Logger.getLogger(UsuarioDao.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            try {
+                if (stmt != null) {
+                    stmt.close();
+                }
+                con.close();
+            } catch (SQLException ex) {
+                Logger.getLogger(UsuarioDao.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
 
@@ -37,7 +63,6 @@ public class UsuarioDao {
 
         PreparedStatement stmt = null;
         ResultSet rs = null;
-        boolean check = false;
 
         try {
             stmt = con.prepareStatement("SELECT * FROM Usuario WHERE nome_usuario = ? AND senha_usuario = ?");
@@ -47,7 +72,7 @@ public class UsuarioDao {
             rs = stmt.executeQuery();
 
             if (rs.next()) {
-                check = true;
+                return true;
             }
 
         } catch (Exception e) {
@@ -56,7 +81,33 @@ public class UsuarioDao {
             ConnectionFactory.closeConnection(con, stmt, rs);
         }
 
-        return check;
+        return false;
+    }
+    
+    public boolean checkLogin(String cpf) {
+
+        Connection con = new ConnectionFactory().getConnection();
+
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+
+        try {
+            stmt = con.prepareStatement("SELECT * FROM Usuario WHERE cpf_usuario = ?");
+            stmt.setString(1, cpf);
+
+            rs = stmt.executeQuery();
+
+            if (rs.next()) {
+                return true;
+            }
+
+        } catch (Exception e) {
+            throw new RuntimeException("Erro de conexão: ", e);
+        } finally {
+            ConnectionFactory.closeConnection(con, stmt, rs);
+        }
+
+        return false;
     }
 
     public String checkTipoUsuario(String login, String senha) {
