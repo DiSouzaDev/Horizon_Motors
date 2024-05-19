@@ -52,63 +52,58 @@ public class CadastroHorizonMotors extends javax.swing.JFrame {
         jScrollPane7 = new javax.swing.JScrollPane();
         jTextTel = new javax.swing.JTextPane();
         jLabelCpf = new javax.swing.JLabel();
+        jSeparator16 = new javax.swing.JSeparator();
+        jSeparator1 = new javax.swing.JSeparator();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(802, 459));
+        setMinimumSize(new java.awt.Dimension(812, 465));
+        setPreferredSize(new java.awt.Dimension(812, 465));
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabelAviso.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabelAviso.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
         jLabelAviso.setText("Faça seu cadastro");
-        jPanel1.add(jLabelAviso, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 30, -1, -1));
 
-        jLabelNome.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabelNome.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabelNome.setText("Nome *");
-        jPanel1.add(jLabelNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
 
-        jLabelEmail.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabelEmail.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabelEmail.setText("Email *");
-        jPanel1.add(jLabelEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, -1, -1));
 
         jTextEmail.setBackground(new java.awt.Color(204, 204, 204));
         jTextEmail.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jTextEmail.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jScrollPane2.setViewportView(jTextEmail);
 
-        jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 146, -1));
-
-        jLabelSenha.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabelSenha.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabelSenha.setText("Senha *");
-        jPanel1.add(jLabelSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, -1));
 
         jPassword.setBackground(new java.awt.Color(204, 204, 204));
+        jPassword.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jPassword.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordActionPerformed(evt);
             }
         });
-        jPanel1.add(jPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 146, -1));
 
-        jLabelConSenha.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabelConSenha.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabelConSenha.setText("Confirme a sua senha *");
-        jPanel1.add(jLabelConSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 190, -1, -1));
 
         jConfirmPassword.setBackground(new java.awt.Color(204, 204, 204));
+        jConfirmPassword.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jConfirmPassword.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jConfirmPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jConfirmPasswordActionPerformed(evt);
             }
         });
-        jPanel1.add(jConfirmPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 210, 146, -1));
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(67, 156, -1, -1));
 
-        botaoCadastroTelaCadastro.setBackground(new java.awt.Color(51, 255, 204));
-        botaoCadastroTelaCadastro.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        botaoCadastroTelaCadastro.setForeground(new java.awt.Color(255, 255, 255));
+        botaoCadastroTelaCadastro.setBackground(new java.awt.Color(130, 255, 212));
+        botaoCadastroTelaCadastro.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         botaoCadastroTelaCadastro.setText("Cadastre-se");
         botaoCadastroTelaCadastro.setCursor(new java.awt.Cursor(java.awt.Cursor.W_RESIZE_CURSOR));
         botaoCadastroTelaCadastro.addActionListener(new java.awt.event.ActionListener() {
@@ -116,11 +111,9 @@ public class CadastroHorizonMotors extends javax.swing.JFrame {
                 botaoCadastroTelaCadastroActionPerformed(evt);
             }
         });
-        jPanel1.add(botaoCadastroTelaCadastro, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 250, -1, 36));
 
         jLabel11.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
         jLabel11.setText("Já possui uma conta?");
-        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 310, -1, 10));
 
         botaoEntre.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
         botaoEntre.setForeground(new java.awt.Color(51, 255, 204));
@@ -131,39 +124,144 @@ public class CadastroHorizonMotors extends javax.swing.JFrame {
                 botaoEntreActionPerformed(evt);
             }
         });
-        jPanel1.add(botaoEntre, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 310, -1, 10));
 
-        jLabelTel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabelTel.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabelTel.setText("Telefone*");
-        jPanel1.add(jLabelTel, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 130, -1, -1));
 
         jTextNome.setBackground(new java.awt.Color(204, 204, 204));
         jTextNome.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jTextNome.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jScrollNome.setViewportView(jTextNome);
-
-        jPanel1.add(jScrollNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 146, -1));
 
         jTextCpf.setBackground(new java.awt.Color(204, 204, 204));
         jTextCpf.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jTextCpf.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jScrollPane6.setViewportView(jTextCpf);
-
-        jPanel1.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 90, 146, -1));
 
         jTextTel.setBackground(new java.awt.Color(204, 204, 204));
         jTextTel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jTextTel.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jScrollPane7.setViewportView(jTextTel);
 
-        jPanel1.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 150, 146, -1));
-
+        jLabelCpf.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabelCpf.setText("CPF*");
-        jPanel1.add(jLabelCpf, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 70, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 400, 340));
+        jSeparator16.setForeground(new java.awt.Color(153, 255, 229));
+        jSeparator16.setMinimumSize(new java.awt.Dimension(50, 20));
+
+        jSeparator1.setForeground(new java.awt.Color(130, 255, 212));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(140, 140, 140)
+                        .addComponent(jLabelAviso))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(130, 130, 130)
+                        .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabelNome)
+                        .addGap(140, 140, 140)
+                        .addComponent(jLabelCpf))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jScrollNome, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(35, 35, 35)
+                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabelEmail)
+                        .addGap(142, 142, 142)
+                        .addComponent(jLabelTel))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(37, 37, 37)
+                                .addComponent(jLabel9))
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(35, 35, 35)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabelSenha)
+                        .addGap(139, 139, 139)
+                        .addComponent(jLabelConSenha))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(35, 35, 35)
+                        .addComponent(jConfirmPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(150, 150, 150)
+                        .addComponent(botaoCadastroTelaCadastro))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(130, 130, 130)
+                        .addComponent(jLabel11)
+                        .addGap(7, 7, 7)
+                        .addComponent(botaoEntre)))
+                .addGap(35, 35, 35))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jSeparator16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(jLabelAviso)
+                .addGap(3, 3, 3)
+                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(17, 17, 17)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabelNome)
+                    .addComponent(jLabelCpf))
+                .addGap(5, 5, 5)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabelEmail)
+                    .addComponent(jLabelTel))
+                .addGap(5, 5, 5)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(jLabel9))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabelSenha)
+                    .addComponent(jLabelConSenha))
+                .addGap(5, 5, 5)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jConfirmPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
+                .addComponent(botaoCadastroTelaCadastro, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(botaoEntre, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)))
+        );
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 40, 380, 340));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/hm.gif"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, 0, -1, 465));
+        jLabel1.setMaximumSize(new java.awt.Dimension(812, 465));
+        jLabel1.setMinimumSize(new java.awt.Dimension(812, 465));
+        jLabel1.setName(""); // NOI18N
+        jLabel1.setPreferredSize(new java.awt.Dimension(812, 465));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 812, 465));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordActionPerformed
@@ -320,6 +418,8 @@ public class CadastroHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator16;
     private javax.swing.JTextPane jTextCpf;
     private javax.swing.JTextPane jTextEmail;
     private javax.swing.JTextPane jTextNome;

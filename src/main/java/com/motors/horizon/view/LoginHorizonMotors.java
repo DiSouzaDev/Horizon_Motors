@@ -58,7 +58,7 @@ public class LoginHorizonMotors extends javax.swing.JFrame {
         jPanel3.setFocusCycleRoot(true);
 
         jPasswordField1.setBackground(new java.awt.Color(204, 204, 204));
-        jPasswordField1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jPasswordField1.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jPasswordField1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,7 +67,7 @@ public class LoginHorizonMotors extends javax.swing.JFrame {
         });
 
         jTextField1.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jTextField1.setToolTipText("");
         jTextField1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -80,6 +80,7 @@ public class LoginHorizonMotors extends javax.swing.JFrame {
 
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
 
+        jCheckBox1.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jCheckBox1.setText("Lembrar a senha");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,9 +91,8 @@ public class LoginHorizonMotors extends javax.swing.JFrame {
         jLabel10.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
         jLabel10.setText("Horizon Motors");
 
-        jButton1.setBackground(new java.awt.Color(51, 255, 204));
-        jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setBackground(new java.awt.Color(130, 255, 212));
+        jButton1.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,14 +138,14 @@ public class LoginHorizonMotors extends javax.swing.JFrame {
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel10)
                             .addComponent(jLabel5))
-                        .addGap(54, 54, 54))))
+                        .addGap(45, 45, 45))))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(75, 75, 75)
                 .addComponent(jLabel6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(0, 0, 0)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel3)
                     .addComponent(jLabel5))
