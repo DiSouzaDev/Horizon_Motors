@@ -37,9 +37,6 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
         jPanel6 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
         jLabelLogoHS = new javax.swing.JLabel();
         jPanelColunaPesquisaUser = new javax.swing.JPanel();
         jLabel69 = new javax.swing.JLabel();
@@ -61,8 +58,6 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
         jSeparator8 = new javax.swing.JSeparator();
         jLabel22 = new javax.swing.JLabel();
         jSeparator9 = new javax.swing.JSeparator();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextPane2 = new javax.swing.JTextPane();
         jScrollPane3 = new javax.swing.JScrollPane();
@@ -71,6 +66,13 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
         jTextPane4 = new javax.swing.JTextPane();
         jScrollPane5 = new javax.swing.JScrollPane();
         jTextPane5 = new javax.swing.JTextPane();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextPane7 = new javax.swing.JTextPane();
         jPanelInformacoesCarro = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
@@ -222,15 +224,6 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
 
         jPanelHeaderAdmin.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 50, 60, 1));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/user28px.gif"))); // NOI18N
-        jPanelHeaderAdmin.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 30, -1, -1));
-
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/sino.gif"))); // NOI18N
-        jPanelHeaderAdmin.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 30, -1, -1));
-
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/batepapo.gif"))); // NOI18N
-        jPanelHeaderAdmin.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 30, -1, -1));
-
         jLabelLogoHS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/logomenor50px.gif"))); // NOI18N
         jPanelHeaderAdmin.add(jLabelLogoHS, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, -1, -1));
 
@@ -276,7 +269,7 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
         });
 
         jLabel6.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel6.setText("Buscar Carro");
+        jLabel6.setText("Buscar carro");
 
         jComboBox1.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Porche", "Ferrari", "Mercedes-benz", "Lamborghini", "Jaguar", "Aston Martin", "Land Rover", "Audi", "..." }));
@@ -334,20 +327,35 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
         jLabel22.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel22.setText("Cadastrar carro");
 
-        jTextPane1.setText("Marca");
-        jScrollPane1.setViewportView(jTextPane1);
-
-        jTextPane2.setText("Modelo");
+        jTextPane2.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jScrollPane2.setViewportView(jTextPane2);
 
-        jTextPane3.setText("Ano");
+        jTextPane3.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jScrollPane3.setViewportView(jTextPane3);
 
-        jTextPane4.setText("Preço");
+        jTextPane4.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jScrollPane4.setViewportView(jTextPane4);
 
-        jTextPane5.setText("Descrição");
+        jTextPane5.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jScrollPane5.setViewportView(jTextPane5);
+
+        jLabel23.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel23.setText("Marca");
+
+        jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel24.setText("Preço");
+
+        jLabel30.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel30.setText("Modelo");
+
+        jLabel31.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel31.setText("Descrição");
+
+        jLabel32.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel32.setText("Ano");
+
+        jTextPane7.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jScrollPane7.setViewportView(jTextPane7);
 
         javax.swing.GroupLayout jPanelColunaPesquisaUserLayout = new javax.swing.GroupLayout(jPanelColunaPesquisaUser);
         jPanelColunaPesquisaUser.setLayout(jPanelColunaPesquisaUserLayout);
@@ -356,59 +364,72 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
             .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                 .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                        .addGap(33, 33, 33)
+                        .addGap(30, 30, 30)
                         .addComponent(jLabel69)
                         .addGap(6, 6, 6)
                         .addComponent(jLabel70))
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel59))
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel63))
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                         .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)
                         .addComponent(jLabel65))
                     .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel63)
-                            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                                .addGap(4, 4, 4)
-                                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel59))))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addComponent(jLabel15)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGap(12, 12, 12)
                         .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(61, 61, 61)
+                        .addComponent(jLabel6))
+                    .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                         .addGap(23, 23, 23)
                         .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                        .addGap(61, 61, 61)
-                        .addComponent(jLabel6))
                     .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                         .addGap(57, 57, 57)
                         .addComponent(jLabel22))
+                    .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                        .addGap(24, 24, 24)
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel23))
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel30))
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
                         .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jScrollPane5, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                                .addGap(90, 90, 90)
+                                .addComponent(jLabel24))
+                            .addComponent(jLabel32)
+                            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(17, 17, 17)
+                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel31)
+                            .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(27, 27, 27))
         );
         jPanelColunaPesquisaUserLayout.setVerticalGroup(
             jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -419,49 +440,61 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
                     .addComponent(jLabel70))
                 .addGap(19, 19, 19)
                 .addComponent(jLabel59)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(6, 6, 6)
                 .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(15, 15, 15)
                 .addComponent(jLabel63)
                 .addGap(5, 5, 5)
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
+                .addGap(18, 18, 18)
                 .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel65))
                 .addGap(10, 10, 10)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
+                .addGap(5, 5, 5)
                 .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel15))
+                    .addComponent(jLabel15)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(10, 10, 10)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
                 .addComponent(jLabel6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
+                .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(5, 5, 5)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(10, 10, 10)
                 .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
                 .addComponent(jLabel22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(10, 10, 10)
+                .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(jLabel23)))
+                .addGap(2, 2, 2)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(3, 3, 3)
+                .addComponent(jLabel30)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel31)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel24)
+                    .addComponent(jLabel32))
+                .addGap(3, 3, 3)
+                .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(15, 15, 15)
                 .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         jPanel1.add(jPanelColunaPesquisaUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 210, 590));
@@ -495,23 +528,23 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel14.setText("Potência");
 
-        jLabel18.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel18.setText("2020/2021");
         jLabel18.setToolTipText("");
 
-        jLabel25.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel25.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel25.setText("Automática");
 
-        jLabel26.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel26.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel26.setText("3.8 BITURBO de 650 CV");
 
-        jLabel27.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel27.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel27.setText("24V");
 
-        jLabel28.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel28.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel28.setText("Gasolina");
 
-        jLabel29.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel29.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel29.setText("Cupê");
 
         jLabel20.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
@@ -582,7 +615,7 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel12)
-                .addGap(8, 8, 8)
+                .addGap(5, 5, 5)
                 .addComponent(jLabel21)
                 .addGap(13, 13, 13)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -798,7 +831,6 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
@@ -811,12 +843,17 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel59;
@@ -827,8 +864,6 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabelLogoHS;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
@@ -844,11 +879,11 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JPanel jPanelColunaPesquisaUser;
     private javax.swing.JPanel jPanelHeaderAdmin;
     private javax.swing.JPanel jPanelInformacoesCarro;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
@@ -859,10 +894,10 @@ public class TestAdmHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextPane jTextPane1;
     private javax.swing.JTextPane jTextPane2;
     private javax.swing.JTextPane jTextPane3;
     private javax.swing.JTextPane jTextPane4;
     private javax.swing.JTextPane jTextPane5;
+    private javax.swing.JTextPane jTextPane7;
     // End of variables declaration//GEN-END:variables
 }
