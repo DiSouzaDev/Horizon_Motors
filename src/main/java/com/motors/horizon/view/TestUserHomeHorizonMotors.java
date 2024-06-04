@@ -46,8 +46,6 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
-        jLabel60 = new javax.swing.JLabel();
-        jLabel62 = new javax.swing.JLabel();
         jLabel63 = new javax.swing.JLabel();
         jLabel65 = new javax.swing.JLabel();
         jPanel32 = new javax.swing.JPanel();
@@ -55,80 +53,55 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
         jSeparator2 = new javax.swing.JSeparator();
         jLabel6 = new javax.swing.JLabel();
         jSeparator3 = new javax.swing.JSeparator();
-        jCheckBox5 = new javax.swing.JCheckBox();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jComboBox3 = new javax.swing.JComboBox<>();
-        jCheckBox4 = new javax.swing.JCheckBox();
-        jComboBox4 = new javax.swing.JComboBox<>();
-        jPanel2 = new javax.swing.JPanel();
-        jPanel9 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
         jPanel14 = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
-        jPanelPorscheUs = new javax.swing.JPanel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jLabel28 = new javax.swing.JLabel();
+        jSeparator8 = new javax.swing.JSeparator();
+        jSeparator9 = new javax.swing.JSeparator();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextPane1 = new javax.swing.JTextPane();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTextPane5 = new javax.swing.JTextPane();
+        jButtonEnviarMensagem1 = new javax.swing.JButton();
+        jPanelInformacoesCarro = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jSeparator4 = new javax.swing.JSeparator();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        jSeparator13 = new javax.swing.JSeparator();
-        jButton13 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jPanelJaguarUs = new javax.swing.JPanel();
-        jLabel61 = new javax.swing.JLabel();
-        jLabel66 = new javax.swing.JLabel();
-        jLabel67 = new javax.swing.JLabel();
-        jButton12 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jSeparator10 = new javax.swing.JSeparator();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jPanelMercedesUs = new javax.swing.JPanel();
-        jLabel43 = new javax.swing.JLabel();
-        jLabel44 = new javax.swing.JLabel();
-        jLabel45 = new javax.swing.JLabel();
-        jButton9 = new javax.swing.JButton();
-        jSeparator9 = new javax.swing.JSeparator();
-        jButton6 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        jPanelBmwUs = new javax.swing.JPanel();
-        jLabel47 = new javax.swing.JLabel();
-        jLabel48 = new javax.swing.JLabel();
-        jLabel49 = new javax.swing.JLabel();
-        jButton10 = new javax.swing.JButton();
-        jSeparator31 = new javax.swing.JSeparator();
-        jButton14 = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
-        jPanelFerrariUs = new javax.swing.JPanel();
-        jLabel39 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
-        jLabel41 = new javax.swing.JLabel();
-        jButton8 = new javax.swing.JButton();
-        jSeparator12 = new javax.swing.JSeparator();
-        jButton7 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jPanelLambUs = new javax.swing.JPanel();
-        jLabel51 = new javax.swing.JLabel();
-        jLabel52 = new javax.swing.JLabel();
-        jLabel53 = new javax.swing.JLabel();
-        jButton11 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jSeparator11 = new javax.swing.JSeparator();
-        jLabel5 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jSeparator5 = new javax.swing.JSeparator();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel27 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jSeparator6 = new javax.swing.JSeparator();
+        jTextField2 = new javax.swing.JTextField();
+        jButtonEnviarMensagem = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jSeparator7 = new javax.swing.JSeparator();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        jPanel10 = new javax.swing.JPanel();
 
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/coracao20px.gif"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(1200, 655));
         setMinimumSize(new java.awt.Dimension(1200, 655));
         setResizable(false);
 
@@ -277,12 +250,6 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
         jLabel59.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabel59.setText("Meu perfil");
 
-        jLabel60.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
-        jLabel60.setText("Meus agendamentos");
-
-        jLabel62.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
-        jLabel62.setText("Meus favoritos");
-
         jLabel63.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabel63.setText("Configurações");
 
@@ -304,117 +271,7 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
         );
 
         jLabel6.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel6.setText("Buscar por categorias");
-
-        jCheckBox5.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jCheckBox5.setText("Todas as categorias");
-        jCheckBox5.setFocusable(false);
-        jCheckBox5.setRequestFocusEnabled(false);
-        jCheckBox5.setVerifyInputWhenFocusTarget(false);
-
-        jCheckBox1.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jCheckBox1.setText("Marca");
-        jCheckBox1.setFocusable(false);
-        jCheckBox1.setRequestFocusEnabled(false);
-        jCheckBox1.setVerifyInputWhenFocusTarget(false);
-        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox1ActionPerformed(evt);
-            }
-        });
-
-        jComboBox1.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Porche", "Ferrari", "Mercedes-benz", "Lamborghini", "Jaguar", "Aston Martin", "Land Rover", "Audi", "..." }));
-        jComboBox1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jComboBox1.setFocusCycleRoot(true);
-        jComboBox1.setFocusable(false);
-        jComboBox1.setLightWeightPopupEnabled(false);
-        jComboBox1.setRequestFocusEnabled(false);
-        jComboBox1.setVerifyInputWhenFocusTarget(false);
-        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox1ActionPerformed(evt);
-            }
-        });
-
-        jCheckBox2.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jCheckBox2.setText("Ano");
-        jCheckBox2.setFocusable(false);
-        jCheckBox2.setRequestFocusEnabled(false);
-        jCheckBox2.setVerifyInputWhenFocusTarget(false);
-        jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox2ActionPerformed(evt);
-            }
-        });
-
-        jComboBox2.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2015 - 2017", "2018 - 2022", "2023 - 2024" }));
-        jComboBox2.setFocusable(false);
-        jComboBox2.setRequestFocusEnabled(false);
-        jComboBox2.setVerifyInputWhenFocusTarget(false);
-        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox2ActionPerformed(evt);
-            }
-        });
-
-        jCheckBox3.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jCheckBox3.setText("Cor");
-        jCheckBox3.setFocusable(false);
-        jCheckBox3.setRequestFocusEnabled(false);
-        jCheckBox3.setVerifyInputWhenFocusTarget(false);
-        jCheckBox3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox3ActionPerformed(evt);
-            }
-        });
-
-        jComboBox3.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Preto", "Branco", "Prata", "Vermelho", "Azul", "Verde", "Amarelo", "..." }));
-        jComboBox3.setFocusable(false);
-        jComboBox3.setRequestFocusEnabled(false);
-        jComboBox3.setVerifyInputWhenFocusTarget(false);
-
-        jCheckBox4.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jCheckBox4.setText("Preço");
-        jCheckBox4.setFocusable(false);
-        jCheckBox4.setRequestFocusEnabled(false);
-        jCheckBox4.setVerifyInputWhenFocusTarget(false);
-
-        jComboBox4.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "R$ 800.000 - R$ 1.000.000", "R$ 1.000.000 - R$ 2.000.000", "R$ 2.000.000 - R$ 3.000.000", "...." }));
-        jComboBox4.setFocusable(false);
-        jComboBox4.setRequestFocusEnabled(false);
-        jComboBox4.setVerifyInputWhenFocusTarget(false);
-
-        jPanel2.setBackground(new java.awt.Color(168, 255, 226));
-        jPanel2.setPreferredSize(new java.awt.Dimension(60, 1));
-
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 60, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1, Short.MAX_VALUE)
-        );
-
-        jPanel9.setBackground(new java.awt.Color(168, 255, 226));
-        jPanel9.setPreferredSize(new java.awt.Dimension(60, 1));
-
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 60, Short.MAX_VALUE)
-        );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1, Short.MAX_VALUE)
-        );
+        jLabel6.setText("Buscar Carro");
 
         jPanel11.setBackground(new java.awt.Color(168, 255, 226));
         jPanel11.setPreferredSize(new java.awt.Dimension(60, 1));
@@ -453,6 +310,38 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
             }
         });
 
+        jComboBox1.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Porche", "Ferrari", "Mercedes-benz", "Lamborghini", "Jaguar", "Aston Martin", "Land Rover", "Audi", "..." }));
+        jComboBox1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jComboBox1.setFocusCycleRoot(true);
+        jComboBox1.setFocusable(false);
+        jComboBox1.setLightWeightPopupEnabled(false);
+        jComboBox1.setRequestFocusEnabled(false);
+        jComboBox1.setVerifyInputWhenFocusTarget(false);
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
+
+        jLabel28.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
+        jLabel28.setText("Agendamento");
+
+        jTextPane1.setText("Data");
+        jScrollPane1.setViewportView(jTextPane1);
+
+        jTextPane5.setText("Horário");
+        jScrollPane5.setViewportView(jTextPane5);
+
+        jButtonEnviarMensagem1.setBackground(new java.awt.Color(130, 255, 212));
+        jButtonEnviarMensagem1.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jButtonEnviarMensagem1.setText("Adicionar carro");
+        jButtonEnviarMensagem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonEnviarMensagem1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelColunaPesquisaUserLayout = new javax.swing.GroupLayout(jPanelColunaPesquisaUser);
         jPanelColunaPesquisaUser.setLayout(jPanelColunaPesquisaUserLayout);
         jPanelColunaPesquisaUserLayout.setHorizontalGroup(
@@ -470,18 +359,6 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
                 .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
-                .addComponent(jLabel60))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(jLabel62))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(14, 14, 14)
                 .addComponent(jLabel63))
             .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                 .addGap(18, 18, 18)
@@ -494,43 +371,28 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
             .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jCheckBox5))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jCheckBox1))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jCheckBox2))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jCheckBox3))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jCheckBox4))
-            .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                    .addContainerGap()
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                            .addGap(20, 20, 20)
-                            .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addGap(39, 39, 39)
-                .addComponent(jLabel6))
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(jLabel15)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                .addGap(63, 63, 63)
+                .addComponent(jLabel6))
+            .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                .addGap(63, 63, 63)
+                .addComponent(jLabel28))
+            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonEnviarMensagem1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(21, 21, 21))
         );
         jPanelColunaPesquisaUserLayout.setVerticalGroup(
             jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -543,584 +405,322 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
                 .addComponent(jLabel59)
                 .addGap(5, 5, 5)
                 .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(jLabel60)
-                .addGap(5, 5, 5)
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(jLabel62)
-                .addGap(5, 5, 5)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
+                .addGap(15, 15, 15)
                 .addComponent(jLabel63)
                 .addGap(5, 5, 5)
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(14, 14, 14)
+                .addGap(20, 20, 20)
                 .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel65))
-                .addGap(10, 10, 10)
+                .addGap(15, 15, 15)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel15))
-                .addGap(12, 12, 12)
+                .addGap(10, 10, 10)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
                 .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(jCheckBox5)
-                .addGap(8, 8, 8)
-                .addComponent(jCheckBox1)
-                .addGap(8, 8, 8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(8, 8, 8)
-                .addComponent(jCheckBox2)
-                .addGap(8, 8, 8)
-                .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(8, 8, 8)
-                .addComponent(jCheckBox3)
-                .addGap(8, 8, 8)
-                .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(8, 8, 8)
-                .addComponent(jCheckBox4)
-                .addGap(8, 8, 8)
-                .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(2, 2, 2)
+                .addComponent(jLabel28)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addComponent(jButtonEnviarMensagem1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jPanel1.add(jPanelColunaPesquisaUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 210, 590));
 
-        jPanelPorscheUs.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelInformacoesCarro.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel10.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel10.setText("Porsche 911");
+        jLabel7.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel7.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel7.setText("Ano");
 
-        jLabel13.setFont(new java.awt.Font("Roboto", 1, 9)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel13.setText("3.0 24V H6 GASOLINA CARRERA 4 GTS ");
+        jLabel12.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
+        jLabel12.setText("Porsche 911");
 
-        jLabel14.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
-        jLabel14.setText("R$ 835.000");
+        jLabel16.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel16.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel16.setText("Câmbio");
 
-        jButton2.setBackground(new java.awt.Color(130, 255, 212));
-        jButton2.setFont(new java.awt.Font("Roboto", 1, 10)); // NOI18N
-        jButton2.setText("Consultar");
-        jButton2.setRequestFocusEnabled(false);
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
+        jLabel17.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel17.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel17.setText("Motor");
 
-        jButton13.setFont(new java.awt.Font("Roboto", 1, 20)); // NOI18N
-        jButton13.setText("+");
-        jButton13.setBorder(null);
-        jButton13.setContentAreaFilled(false);
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
-            }
-        });
+        jLabel10.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel10.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel10.setText("Combustível");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/porsche911210px.gif"))); // NOI18N
+        jLabel13.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel13.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel13.setText("Carroceria");
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/coracao20px.gif"))); // NOI18N
+        jLabel14.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel14.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel14.setText("Potência");
 
-        javax.swing.GroupLayout jPanelPorscheUsLayout = new javax.swing.GroupLayout(jPanelPorscheUs);
-        jPanelPorscheUs.setLayout(jPanelPorscheUsLayout);
-        jPanelPorscheUsLayout.setHorizontalGroup(
-            jPanelPorscheUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelPorscheUsLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton2)
-                .addGap(67, 67, 67))
-            .addGroup(jPanelPorscheUsLayout.createSequentialGroup()
-                .addGap(15, 15, 15)
-                .addComponent(jButton13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel12)
-                .addGap(18, 18, 18))
-            .addGroup(jPanelPorscheUsLayout.createSequentialGroup()
-                .addGroup(jPanelPorscheUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelPorscheUsLayout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addGroup(jPanelPorscheUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jLabel18.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel18.setText("2020/2021");
+        jLabel18.setToolTipText("");
+
+        jLabel19.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel19.setText("Automática");
+
+        jLabel21.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel21.setText("3.8 BITURBO de 650 CV");
+
+        jLabel22.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel22.setText("24V");
+
+        jLabel23.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel23.setText("Gasolina");
+
+        jLabel24.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
+        jLabel24.setText("Cupê");
+
+        jLabel25.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
+        jLabel25.setText("Especificações técnicas");
+
+        jLabel26.setFont(new java.awt.Font("Roboto", 1, 11)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel26.setText("Configuração em preto com interno em couro preto e bordeaux.");
+
+        jPanel3.setBackground(new java.awt.Color(198, 198, 198));
+        jPanel3.setPreferredSize(new java.awt.Dimension(3, 100));
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1, Short.MAX_VALUE)
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/porsche400px.gif"))); // NOI18N
+
+        javax.swing.GroupLayout jPanelInformacoesCarroLayout = new javax.swing.GroupLayout(jPanelInformacoesCarro);
+        jPanelInformacoesCarro.setLayout(jPanelInformacoesCarroLayout);
+        jPanelInformacoesCarroLayout.setHorizontalGroup(
+            jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel18)
+                            .addComponent(jLabel19)
+                            .addComponent(jLabel16)
+                            .addComponent(jLabel21)
+                            .addComponent(jLabel17)
+                            .addComponent(jLabel7))
+                        .addGap(33, 33, 33)
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 1, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(49, 49, 49)
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel14)
+                            .addComponent(jLabel22)
                             .addComponent(jLabel10)
+                            .addComponent(jLabel23)
                             .addComponent(jLabel13)
-                            .addComponent(jLabel14)))
-                    .addComponent(jSeparator13, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel24))))
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        jPanelPorscheUsLayout.setVerticalGroup(
-            jPanelPorscheUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelPorscheUsLayout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(jLabel10)
-                .addGap(5, 5, 5)
-                .addComponent(jLabel13)
-                .addGap(8, 8, 8)
-                .addComponent(jLabel14)
-                .addGroup(jPanelPorscheUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelPorscheUsLayout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addComponent(jSeparator13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(4, 4, 4)
-                        .addComponent(jLabel12)
-                        .addGap(0, 10, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelPorscheUsLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton13)
-                        .addContainerGap())))
-        );
-
-        jPanel1.add(jPanelPorscheUs, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 90, 210, 260));
-
-        jPanelJaguarUs.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel61.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel61.setText("Jaguar F-Pace");
-
-        jLabel66.setFont(new java.awt.Font("Roboto", 1, 9)); // NOI18N
-        jLabel66.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel66.setText("5.0 V8 SUPERCHARGED SVR AWD 4P");
-
-        jLabel67.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
-        jLabel67.setText("R$ 1.000.000");
-
-        jButton12.setBackground(new java.awt.Color(130, 255, 212));
-        jButton12.setFont(new java.awt.Font("Roboto", 1, 10)); // NOI18N
-        jButton12.setText("Consultar");
-        jButton12.setDefaultCapable(false);
-        jButton12.setFocusPainted(false);
-        jButton12.setFocusable(false);
-        jButton12.setRequestFocusEnabled(false);
-        jButton12.setVerifyInputWhenFocusTarget(false);
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
-            }
-        });
-
-        jButton16.setFont(new java.awt.Font("Roboto", 1, 20)); // NOI18N
-        jButton16.setText("+");
-        jButton16.setBorder(null);
-        jButton16.setContentAreaFilled(false);
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
-            }
-        });
-
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/jaguar-f-pace-phev- (1).gif"))); // NOI18N
-
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/coracao20px.gif"))); // NOI18N
-
-        javax.swing.GroupLayout jPanelJaguarUsLayout = new javax.swing.GroupLayout(jPanelJaguarUs);
-        jPanelJaguarUs.setLayout(jPanelJaguarUsLayout);
-        jPanelJaguarUsLayout.setHorizontalGroup(
-            jPanelJaguarUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelJaguarUsLayout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addGroup(jPanelJaguarUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelJaguarUsLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton12)
-                        .addGap(67, 67, 67))
-                    .addGroup(jPanelJaguarUsLayout.createSequentialGroup()
-                        .addComponent(jButton16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel22)
-                        .addGap(19, 19, 19))))
-            .addGroup(jPanelJaguarUsLayout.createSequentialGroup()
-                .addGroup(jPanelJaguarUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jSeparator10, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanelJaguarUsLayout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addGroup(jPanelJaguarUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel67)
-                            .addComponent(jLabel61)
-                            .addComponent(jLabel66))))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        jPanelJaguarUsLayout.setVerticalGroup(
-            jPanelJaguarUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelJaguarUsLayout.createSequentialGroup()
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(jPanelJaguarUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelJaguarUsLayout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addComponent(jLabel61)
-                        .addGap(5, 5, 5)
-                        .addComponent(jLabel66)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel67)
-                        .addGap(10, 10, 10)
-                        .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)
-                        .addComponent(jSeparator10, javax.swing.GroupLayout.PREFERRED_SIZE, 3, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 4, Short.MAX_VALUE)
-                        .addComponent(jButton16))
-                    .addGroup(jPanelJaguarUsLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel22)))
-                .addContainerGap())
-        );
-
-        jPanel1.add(jPanelJaguarUs, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 370, 210, 260));
-
-        jPanelMercedesUs.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel43.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel43.setText("Mercedes-benz S63 AMG");
-
-        jLabel44.setFont(new java.awt.Font("Roboto", 1, 9)); // NOI18N
-        jLabel44.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel44.setText("4.0 V8 TURBO GASOLINA L 4MATIC");
-
-        jLabel45.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
-        jLabel45.setText("R$ 850.000");
-
-        jButton9.setBackground(new java.awt.Color(130, 255, 212));
-        jButton9.setFont(new java.awt.Font("Roboto", 1, 10)); // NOI18N
-        jButton9.setText("Consultar");
-        jButton9.setRequestFocusEnabled(false);
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
-
-        jButton6.setFont(new java.awt.Font("Roboto", 1, 20)); // NOI18N
-        jButton6.setText("+");
-        jButton6.setBorder(null);
-        jButton6.setContentAreaFilled(false);
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
-            }
-        });
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/2024-mercedes-amg-s-63-e-performance-selenite-gray-magno (1).gif"))); // NOI18N
-
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/coracao20px.gif"))); // NOI18N
-
-        javax.swing.GroupLayout jPanelMercedesUsLayout = new javax.swing.GroupLayout(jPanelMercedesUs);
-        jPanelMercedesUs.setLayout(jPanelMercedesUsLayout);
-        jPanelMercedesUsLayout.setHorizontalGroup(
-            jPanelMercedesUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelMercedesUsLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton9)
-                .addGap(67, 67, 67))
-            .addGroup(jPanelMercedesUsLayout.createSequentialGroup()
-                .addGroup(jPanelMercedesUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelMercedesUsLayout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addGroup(jPanelMercedesUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel45)
-                            .addComponent(jLabel43)
-                            .addComponent(jLabel44)))
-                    .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanelMercedesUsLayout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addComponent(jButton6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel18)
-                .addGap(18, 18, 18))
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        jPanelMercedesUsLayout.setVerticalGroup(
-            jPanelMercedesUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelMercedesUsLayout.createSequentialGroup()
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(jPanelMercedesUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelMercedesUsLayout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel44)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel45)
-                        .addGap(10, 10, 10)
-                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 3, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 4, Short.MAX_VALUE)
-                        .addComponent(jButton6))
-                    .addGroup(jPanelMercedesUsLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel18)))
-                .addContainerGap())
-        );
-
-        jPanel1.add(jPanelMercedesUs, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 90, 210, 260));
-
-        jPanelBmwUs.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel47.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel47.setText("BMW X5");
-
-        jLabel48.setFont(new java.awt.Font("Roboto", 1, 9)); // NOI18N
-        jLabel48.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel48.setText("4.4 V8 BITURBO GASOLINA M");
-
-        jLabel49.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
-        jLabel49.setText("R$ 995.000");
-
-        jButton10.setBackground(new java.awt.Color(130, 255, 212));
-        jButton10.setFont(new java.awt.Font("Roboto", 1, 10)); // NOI18N
-        jButton10.setText("Consultar");
-        jButton10.setRequestFocusEnabled(false);
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
-            }
-        });
-
-        jButton14.setFont(new java.awt.Font("Roboto", 1, 20)); // NOI18N
-        jButton14.setText("+");
-        jButton14.setBorder(null);
-        jButton14.setContentAreaFilled(false);
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
-            }
-        });
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/bmwx5.gif"))); // NOI18N
-
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/coracao20px.gif"))); // NOI18N
-
-        javax.swing.GroupLayout jPanelBmwUsLayout = new javax.swing.GroupLayout(jPanelBmwUs);
-        jPanelBmwUs.setLayout(jPanelBmwUsLayout);
-        jPanelBmwUsLayout.setHorizontalGroup(
-            jPanelBmwUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelBmwUsLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton10)
-                .addGap(67, 67, 67))
-            .addGroup(jPanelBmwUsLayout.createSequentialGroup()
-                .addGroup(jPanelBmwUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelBmwUsLayout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addGroup(jPanelBmwUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel49)
-                            .addComponent(jLabel47)
-                            .addComponent(jLabel48)))
-                    .addComponent(jSeparator31, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanelBmwUsLayout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addComponent(jButton14)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel19)
-                .addGap(22, 22, 22))
-            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        jPanelBmwUsLayout.setVerticalGroup(
-            jPanelBmwUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelBmwUsLayout.createSequentialGroup()
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(jLabel47)
-                .addGap(5, 5, 5)
-                .addComponent(jLabel48)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel49)
-                .addGap(10, 10, 10)
-                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jSeparator31, javax.swing.GroupLayout.PREFERRED_SIZE, 3, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 4, Short.MAX_VALUE)
-                .addGroup(jPanelBmwUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton14)
-                    .addComponent(jLabel19))
-                .addContainerGap())
-        );
-
-        jPanel1.add(jPanelBmwUs, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 370, 210, 260));
-
-        jPanelFerrariUs.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel39.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel39.setText("Ferrari F430");
-
-        jLabel40.setFont(new java.awt.Font("Roboto", 1, 9)); // NOI18N
-        jLabel40.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel40.setText("4.3 F1 V8 40V GASOLINA 2P");
-
-        jLabel41.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
-        jLabel41.setText("R$ 1.350.000");
-
-        jButton8.setBackground(new java.awt.Color(130, 255, 212));
-        jButton8.setFont(new java.awt.Font("Roboto", 1, 10)); // NOI18N
-        jButton8.setText("Consultar");
-        jButton8.setRequestFocusEnabled(false);
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
-            }
-        });
-
-        jButton7.setFont(new java.awt.Font("Roboto", 1, 20)); // NOI18N
-        jButton7.setText("+");
-        jButton7.setBorder(null);
-        jButton7.setContentAreaFilled(false);
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
-            }
-        });
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/ferrarif430211px.gif"))); // NOI18N
-
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/coracao20px.gif"))); // NOI18N
-
-        javax.swing.GroupLayout jPanelFerrariUsLayout = new javax.swing.GroupLayout(jPanelFerrariUs);
-        jPanelFerrariUs.setLayout(jPanelFerrariUsLayout);
-        jPanelFerrariUsLayout.setHorizontalGroup(
-            jPanelFerrariUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelFerrariUsLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton8)
-                .addGap(67, 67, 67))
-            .addGroup(jPanelFerrariUsLayout.createSequentialGroup()
-                .addGroup(jPanelFerrariUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelFerrariUsLayout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addGroup(jPanelFerrariUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel41)
-                            .addComponent(jLabel39)
-                            .addComponent(jLabel40)))
-                    .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel26))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanelFerrariUsLayout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addComponent(jButton7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel16)
-                .addGap(21, 21, 21))
         );
-        jPanelFerrariUsLayout.setVerticalGroup(
-            jPanelFerrariUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelFerrariUsLayout.createSequentialGroup()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addGroup(jPanelFerrariUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanelFerrariUsLayout.createSequentialGroup()
-                        .addComponent(jLabel39)
-                        .addGap(5, 5, 5)
-                        .addComponent(jLabel40)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel41)
+        jPanelInformacoesCarroLayout.setVerticalGroup(
+            jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelInformacoesCarroLayout.createSequentialGroup()
+                .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel12)
+                .addGap(8, 8, 8)
+                .addComponent(jLabel26)
+                .addGap(13, 13, 13)
+                .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(10, 10, 10)
+                .addComponent(jLabel25)
+                .addGap(10, 10, 10)
+                .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
                         .addGap(10, 10, 10)
-                        .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(11, 11, 11)
-                        .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel14)
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(jLabel22)))
+                        .addGap(13, 13, 13)
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel10)
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(jLabel23)))
+                        .addGap(13, 13, 13)
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel13)
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(jLabel24))))
+                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                        .addComponent(jLabel7)
                         .addGap(0, 0, 0)
-                        .addComponent(jButton7))
-                    .addComponent(jLabel16)))
+                        .addComponent(jLabel18)
+                        .addGap(13, 13, 13)
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(jLabel19))
+                            .addComponent(jLabel16))
+                        .addGap(13, 13, 13)
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(jLabel21))
+                            .addComponent(jLabel17))))
+                .addGap(0, 0, 0))
         );
 
-        jPanel1.add(jPanelFerrariUs, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 90, 210, 260));
+        jPanel1.add(jPanelInformacoesCarro, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 120, 400, 490));
 
-        jPanelLambUs.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel51.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel51.setText("Lamborghini Huracán");
+        jLabel3.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
+        jLabel3.setText("Ficou interessado(a)?");
 
-        jLabel52.setFont(new java.awt.Font("Roboto", 1, 9)); // NOI18N
-        jLabel52.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel52.setText("5.2 V10 GASOLINA LP 610-4 SPYDER ");
+        jLabel4.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel4.setText("Envie uma mensagem para nós e agende  ");
 
-        jLabel53.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
-        jLabel53.setText("R$ 3.000.000");
+        jLabel5.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel5.setText("uma visita com um de nossos vendedores.");
 
-        jButton11.setBackground(new java.awt.Color(130, 255, 212));
-        jButton11.setFont(new java.awt.Font("Roboto", 1, 10)); // NOI18N
-        jButton11.setText("Consultar");
-        jButton11.setRequestFocusEnabled(false);
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        jSeparator6.setForeground(new java.awt.Color(130, 255, 212));
+
+        jTextField2.setColumns(1);
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        jTextField2.setToolTipText("");
+        jTextField2.setActionCommand("<Not Set>");
+        jTextField2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jTextField2.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                jTextField2ActionPerformed(evt);
             }
         });
 
-        jButton17.setFont(new java.awt.Font("Roboto", 1, 20)); // NOI18N
-        jButton17.setText("+");
-        jButton17.setBorder(null);
-        jButton17.setContentAreaFilled(false);
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
+        jButtonEnviarMensagem.setBackground(new java.awt.Color(130, 255, 212));
+        jButtonEnviarMensagem.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jButtonEnviarMensagem.setText("Agendar visita");
+        jButtonEnviarMensagem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
+                jButtonEnviarMensagemActionPerformed(evt);
             }
         });
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/Lamborghini-Huracan.gif"))); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Roboto", 0, 10)); // NOI18N
+        jLabel2.setText("Preço à vista");
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/coracao20px.gif"))); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Roboto", 1, 24)); // NOI18N
+        jLabel1.setText("R$ 850.000,00");
 
-        javax.swing.GroupLayout jPanelLambUsLayout = new javax.swing.GroupLayout(jPanelLambUs);
-        jPanelLambUs.setLayout(jPanelLambUsLayout);
-        jPanelLambUsLayout.setHorizontalGroup(
-            jPanelLambUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelLambUsLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton11)
-                .addGap(67, 67, 67))
-            .addGroup(jPanelLambUsLayout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addComponent(jButton17)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel21)
-                .addGap(19, 19, 19))
-            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanelLambUsLayout.createSequentialGroup()
-                .addGroup(jPanelLambUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelLambUsLayout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addGroup(jPanelLambUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel53)
-                            .addComponent(jLabel52)
-                            .addComponent(jLabel51)))
-                    .addComponent(jSeparator11, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
+        jCheckBox1.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jCheckBox1.setText("Fique por dentro das novidades!");
+
+        jPanel10.setBackground(new java.awt.Color(130, 255, 212));
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 26, Short.MAX_VALUE)
         );
-        jPanelLambUsLayout.setVerticalGroup(
-            jPanelLambUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelLambUsLayout.createSequentialGroup()
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(14, 14, 14)
-                .addComponent(jLabel51)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel52)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel53)
-                .addGap(10, 10, 10)
-                .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(12, 12, 12)
-                .addComponent(jSeparator11, javax.swing.GroupLayout.PREFERRED_SIZE, 3, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(jPanelLambUsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelLambUsLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton17))
-                    .addGroup(jPanelLambUsLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel21)))
-                .addContainerGap())
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 25, Short.MAX_VALUE)
         );
 
-        jPanel1.add(jPanelLambUs, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 370, -1, 260));
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jSeparator7)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2)))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jCheckBox1)
+                            .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jTextField2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 213, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(22, Short.MAX_VALUE))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel1))
+                .addGap(2, 2, 2)
+                .addComponent(jLabel2)
+                .addGap(18, 18, 18)
+                .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(10, 10, 10)
+                .addComponent(jLabel3)
+                .addGap(4, 4, 4)
+                .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel4)
+                .addGap(0, 0, 0)
+                .addComponent(jLabel5)
+                .addGap(18, 18, 18)
+                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(15, 15, 15)
+                .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jCheckBox1)
+                .addContainerGap(12, Short.MAX_VALUE))
+        );
+
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 130, 260, 470));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1153,77 +753,25 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButtonAgendActionPerformed
 
-    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox1ActionPerformed
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jButtonEnviarMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEnviarMensagemActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonEnviarMensagemActionPerformed
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
-    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox2ActionPerformed
-
-    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox2ActionPerformed
-
-    private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox3ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton12ActionPerformed
-
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton16ActionPerformed
-
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
-
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
-
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton14ActionPerformed
-
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
-
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton17ActionPerformed
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
-
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
-
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jButtonEnviarMensagem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEnviarMensagem1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonEnviarMensagem1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1264,31 +812,14 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JButton jButtonAgend;
+    private javax.swing.JButton jButtonEnviarMensagem;
+    private javax.swing.JButton jButtonEnviarMensagem1;
     private javax.swing.JButton jButtonInicio;
     private javax.swing.JButton jButtonNovidades;
     private javax.swing.JButton jButtonPromo;
     private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox5;
     private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1297,37 +828,27 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
-    private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
-    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel51;
-    private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel60;
-    private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
     private javax.swing.JLabel jLabel63;
     private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel65;
-    private javax.swing.JLabel jLabel66;
-    private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
@@ -1335,32 +856,33 @@ public class TestUserHomeHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabelLogoHS;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
-    private javax.swing.JPanel jPanelBmwUs;
     private javax.swing.JPanel jPanelColunaPesquisaUser;
-    private javax.swing.JPanel jPanelFerrariUs;
     private javax.swing.JPanel jPanelHeaderAdmin;
-    private javax.swing.JPanel jPanelJaguarUs;
-    private javax.swing.JPanel jPanelLambUs;
-    private javax.swing.JPanel jPanelMercedesUs;
-    private javax.swing.JPanel jPanelPorscheUs;
+    private javax.swing.JPanel jPanelInformacoesCarro;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JSeparator jSeparator10;
-    private javax.swing.JSeparator jSeparator11;
-    private javax.swing.JSeparator jSeparator12;
-    private javax.swing.JSeparator jSeparator13;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
-    private javax.swing.JSeparator jSeparator31;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JSeparator jSeparator6;
+    private javax.swing.JSeparator jSeparator7;
+    private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTextPane jTextPane5;
     // End of variables declaration//GEN-END:variables
 }

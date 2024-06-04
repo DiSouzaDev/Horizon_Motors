@@ -79,9 +79,7 @@ public class DetalhesPorcheHorizonMotors extends javax.swing.JFrame {
         jLabel22.setText("jLabel22");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(1200, 655));
         setMinimumSize(new java.awt.Dimension(1200, 655));
-        setPreferredSize(new java.awt.Dimension(1200, 655));
         setResizable(false);
 
         jPanelBackgroundUser.setMaximumSize(new java.awt.Dimension(1024, 768));
@@ -273,7 +271,7 @@ public class DetalhesPorcheHorizonMotors extends javax.swing.JFrame {
         jLabel20.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel20.setText("Especificações técnicas");
 
-        jLabel21.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
+        jLabel21.setFont(new java.awt.Font("Roboto", 1, 11)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(153, 153, 153));
         jLabel21.setText("Configuração em preto com interno em couro preto e bordeaux.");
 
@@ -300,12 +298,6 @@ public class DetalhesPorcheHorizonMotors extends javax.swing.JFrame {
             .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
                 .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
-                        .addComponent(jLabel21))
                     .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
                         .addGap(30, 30, 30)
@@ -331,16 +323,22 @@ public class DetalhesPorcheHorizonMotors extends javax.swing.JFrame {
                             .addComponent(jLabel13)
                             .addComponent(jLabel18))))
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel21))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanelInformacoesCarroLayout.setVerticalGroup(
             jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelInformacoesCarroLayout.createSequentialGroup()
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel6)
                 .addGap(8, 8, 8)
                 .addComponent(jLabel21)
-                .addGap(15, 15, 15)
+                .addGap(13, 13, 13)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
                 .addComponent(jLabel20)
