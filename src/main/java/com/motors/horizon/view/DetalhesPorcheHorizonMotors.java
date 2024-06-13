@@ -39,9 +39,6 @@ public class DetalhesPorcheHorizonMotors extends javax.swing.JFrame {
         jPanel7 = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
         jLabelLogoHS = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
         jPanelBackgroundUser1 = new javax.swing.JPanel();
         jPanelInformacoesCarro = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
@@ -201,15 +198,6 @@ public class DetalhesPorcheHorizonMotors extends javax.swing.JFrame {
 
         jLabelLogoHS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/logomenor50px.gif"))); // NOI18N
         jPanelHeaderAdmin.add(jLabelLogoHS, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, -1, -1));
-
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/user28px.gif"))); // NOI18N
-        jPanelHeaderAdmin.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 30, -1, -1));
-
-        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/sino.gif"))); // NOI18N
-        jPanelHeaderAdmin.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 30, -1, -1));
-
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/motors/horizon/images/batepapo.gif"))); // NOI18N
-        jPanelHeaderAdmin.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 30, -1, -1));
 
         jPanelBackgroundUser.add(jPanelHeaderAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 80));
 
@@ -504,7 +492,7 @@ public class DetalhesPorcheHorizonMotors extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1200, Short.MAX_VALUE)
+            .addGap(0, 1220, Short.MAX_VALUE)
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)
@@ -606,9 +594,6 @@ public class DetalhesPorcheHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;

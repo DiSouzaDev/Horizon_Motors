@@ -85,6 +85,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
         jSeparator8 = new javax.swing.JSeparator();
         jLabel3 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
+        jSeparator9 = new javax.swing.JSeparator();
         jPanelInformacoesCarro = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jSeparator4 = new javax.swing.JSeparator();
@@ -340,7 +341,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
         );
 
         jLabel3.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jLabel3.setText("Agendamentos para esse carro:");
+        jLabel3.setText("Agendamentos para esse carro");
 
         jTextField2.setColumns(1);
         jTextField2.setHorizontalAlignment(javax.swing.JTextField.LEFT);
@@ -361,7 +362,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
             .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                 .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                        .addContainerGap()
+                        .addGap(18, 18, 18)
                         .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
                         .addGroup(jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -392,15 +393,15 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                                 .addGap(23, 23, 23)
                                 .addComponent(comboBoxCarros, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                                .addGap(59, 59, 59)
+                                .addGap(24, 24, 24)
+                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
+                                .addGap(68, 68, 68)
                                 .addComponent(jLabel6)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(jPanelColunaPesquisaUserLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanelColunaPesquisaUserLayout.setVerticalGroup(
             jPanelColunaPesquisaUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -431,11 +432,13 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                 .addComponent(comboBoxCarros, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(3, 3, 3)
                 .addComponent(jLabel3)
-                .addGap(18, 18, 18)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(133, 133, 133))
+                .addGap(15, 15, 15)
+                .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(15, 15, 15)
+                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(147, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanelColunaPesquisaUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 210, 610));
@@ -538,40 +541,44 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
             .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
                 .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                        .addGap(21, 21, 21)
                         .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                                .addComponent(lblMarca)
-                                .addGap(8, 8, 8)
-                                .addComponent(lblModelo, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(lblDescricao)))
-                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                        .addGap(40, 40, 40)
-                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblAno)
-                            .addComponent(lblCambio)
-                            .addComponent(jLabel16)
-                            .addComponent(jLabel7))
-                        .addGap(99, 99, 99)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(49, 49, 49)
-                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel14)
-                            .addComponent(lblPotencia)
-                            .addComponent(jLabel10)
-                            .addComponent(lblGasolina)))
-                    .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(21, 21, 21)
+                                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                        .addComponent(lblMarca)
+                                        .addGap(8, 8, 8)
+                                        .addComponent(lblModelo, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(lblDescricao)))
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addGap(66, 66, 66)
+                                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblAno)
+                                    .addComponent(lblCambio)
+                                    .addComponent(jLabel16)
+                                    .addComponent(jLabel7))
+                                .addGap(75, 75, 75)
+                                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(66, 66, 66)
+                                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel14)
+                                    .addComponent(lblPotencia)
+                                    .addComponent(jLabel10)
+                                    .addComponent(lblGasolina))))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelInformacoesCarroLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lblPreco1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblPreco)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel2)
-                        .addGap(152, 152, 152)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(lblPreco1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblPreco)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel2))
+                            .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap())
         );
         jPanelInformacoesCarroLayout.setVerticalGroup(
             jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -581,7 +588,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                 .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblMarca)
                     .addComponent(lblModelo))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(5, 5, 5)
                 .addComponent(lblDescricao)
                 .addGap(13, 13, 13)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -589,33 +596,37 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                 .addComponent(jLabel20)
                 .addGap(10, 10, 10)
                 .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel14)
-                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(lblPotencia)))
-                        .addGap(13, 13, 13)
-                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel10)
-                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(lblGasolina))))
-                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                        .addComponent(jLabel7)
-                        .addGap(0, 0, 0)
-                        .addComponent(lblAno)
-                        .addGap(13, 13, 13)
-                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(lblCambio))
-                            .addComponent(jLabel16))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                        .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addGap(2, 2, 2)
+                                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel14)
+                                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                        .addGap(10, 10, 10)
+                                        .addComponent(lblPotencia)))
+                                .addGap(10, 10, 10)
+                                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel10)
+                                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                        .addGap(10, 10, 10)
+                                        .addComponent(lblGasolina))))
+                            .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                .addComponent(jLabel7)
+                                .addGap(0, 0, 0)
+                                .addComponent(lblAno)
+                                .addGap(10, 10, 10)
+                                .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanelInformacoesCarroLayout.createSequentialGroup()
+                                        .addGap(10, 10, 10)
+                                        .addComponent(lblCambio))
+                                    .addComponent(jLabel16))))
+                        .addGap(23, 23, 23))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelInformacoesCarroLayout.createSequentialGroup()
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                 .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(5, 5, 5)
                 .addGroup(jPanelInformacoesCarroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -624,47 +635,47 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                         .addComponent(lblPreco)
                         .addComponent(lblPreco1)
                         .addComponent(jLabel2)))
-                .addGap(29, 29, 29))
+                .addGap(35, 35, 35))
         );
 
-        jPanel1.add(jPanelInformacoesCarro, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 120, 400, 500));
+        jPanel1.add(jPanelInformacoesCarro, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 110, 400, 500));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel22.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
         jLabel22.setText("Cadastrar carro");
 
-        jLabel23.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel23.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel23.setText("Marca");
 
-        jTextPane2.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jTextPane2.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jScrollPane2.setViewportView(jTextPane2);
 
-        jTextPane7.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jTextPane7.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jScrollPane7.setViewportView(jTextPane7);
 
-        jTextPane5.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jTextPane5.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jScrollPane5.setViewportView(jTextPane5);
 
-        jTextPane3.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jTextPane3.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jScrollPane3.setViewportView(jTextPane3);
 
-        jTextPane4.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jTextPane4.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jScrollPane4.setViewportView(jTextPane4);
 
-        jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel24.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel24.setText("Preço");
 
-        jLabel32.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel32.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel32.setText("Ano");
 
-        jLabel33.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel33.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel33.setText("Câmbio");
 
-        jLabel31.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel31.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel31.setText("Descrição");
 
-        jLabel30.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel30.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel30.setText("Modelo");
 
         jButtonEnviarMensagem.setBackground(new java.awt.Color(130, 255, 212));
@@ -676,18 +687,20 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
             }
         });
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--", "Automático", "Manual" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "...", "Automático", "Manual" }));
+        jComboBox1.setToolTipText("");
 
-        jLabel34.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel34.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel34.setText("Potência");
 
-        jTextPane8.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jTextPane8.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jScrollPane8.setViewportView(jTextPane8);
 
-        jLabel35.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel35.setText("Câmbio");
+        jLabel35.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jLabel35.setText("Combustível");
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--", "Gasolina", "Flex" }));
+        jComboBox2.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "...", "Gasolina", "Flex" }));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -695,43 +708,42 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jSeparator7)
             .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(49, 49, 49)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(84, 84, 84)
-                        .addComponent(jLabel22))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(49, 49, 49)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel34)
-                            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jLabel23)
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel30)
-                                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel31)
-                                .addComponent(jLabel33)
-                                .addGroup(jPanel4Layout.createSequentialGroup()
-                                    .addGap(90, 90, 90)
-                                    .addComponent(jLabel24))
-                                .addComponent(jLabel32)
-                                .addGroup(jPanel4Layout.createSequentialGroup()
-                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(17, 17, 17)
-                                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel35)
-                            .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel34)
+                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jLabel23)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel30)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel31)
+                        .addComponent(jLabel33)
+                        .addGroup(jPanel4Layout.createSequentialGroup()
+                            .addGap(90, 90, 90)
+                            .addComponent(jLabel24))
+                        .addComponent(jLabel32)
+                        .addGroup(jPanel4Layout.createSequentialGroup()
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(17, 17, 17)
+                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel35)
+                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(48, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel22)
+                .addGap(88, 88, 88))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
+                .addGap(15, 15, 15)
                 .addComponent(jLabel22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(15, 15, 15)
                 .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel23)
@@ -753,11 +765,11 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                 .addComponent(jLabel34)
                 .addGap(2, 2, 2)
                 .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(6, 6, 6)
                 .addComponent(jLabel35)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
+                .addGap(6, 6, 6)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel24)
                     .addComponent(jLabel32))
@@ -765,28 +777,28 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15))
+                .addContainerGap(52, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 130, 260, 490));
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 120, 260, 470));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(0, 0, 0)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGap(0, 0, 0))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 675, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGap(0, 0, 0)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0))
         );
 
         pack();
@@ -858,7 +870,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<Carro> comboBoxCarros;
+    private javax.swing.JComboBox<String> comboBoxCarros;
     private javax.swing.JButton jButtonAgend;
     private javax.swing.JButton jButtonEnviarMensagem;
     private javax.swing.JButton jButtonInicio;
@@ -918,6 +930,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator6;
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator8;
+    private javax.swing.JSeparator jSeparator9;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextPane jTextPane2;
     private javax.swing.JTextPane jTextPane3;

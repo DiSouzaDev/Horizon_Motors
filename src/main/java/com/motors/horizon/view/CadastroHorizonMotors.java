@@ -57,7 +57,9 @@ public class CadastroHorizonMotors extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(812, 465));
+        setMaximumSize(new java.awt.Dimension(812, 462));
+        setMinimumSize(new java.awt.Dimension(812, 462));
+        setPreferredSize(new java.awt.Dimension(812, 462));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
