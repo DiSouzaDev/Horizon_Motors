@@ -7,7 +7,10 @@ package com.motors.horizon.view;
 import com.motors.horizon.model.bean.Carro;
 import com.motors.horizon.model.dao.CarroDao;
 import java.sql.SQLException;
+import java.util.Calendar;
+
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -21,12 +24,12 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
     public HomeAdminHorizonMotors() {
         initComponents();
         setLocationRelativeTo(null);
-        buscarCursos();
+        buscarCarros();
         comboBoxCarros.addActionListener((e) -> preencherCampos());
     }
-    
+
     private void preencherCampos() {
-        Carro selecionado = (Carro)comboBoxCarros.getSelectedItem();
+        Carro selecionado = (Carro) comboBoxCarros.getSelectedItem();
         lblMarca.setText(selecionado.getMarca_carro());
         lblModelo.setText(selecionado.getModelo_carro());
         lblDescricao.setText(selecionado.getDescricao_carro());
@@ -37,7 +40,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
         lblPreco.setText(String.valueOf(selecionado.getPreco_carro()));
     }
 
-    private void buscarCursos() {
+    private void buscarCarros() {
         try {
             CarroDao carrosDao = new CarroDao();
             Carro[] carros = carrosDao.obterCarros();
@@ -113,27 +116,27 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextPane2 = new javax.swing.JTextPane();
+        jMarca = new javax.swing.JTextPane();
         jScrollPane7 = new javax.swing.JScrollPane();
-        jTextPane7 = new javax.swing.JTextPane();
+        jModelo = new javax.swing.JTextPane();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTextPane5 = new javax.swing.JTextPane();
+        jDescricao = new javax.swing.JTextPane();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTextPane3 = new javax.swing.JTextPane();
+        jAno = new javax.swing.JTextPane();
         jScrollPane4 = new javax.swing.JScrollPane();
-        jTextPane4 = new javax.swing.JTextPane();
+        jPreco = new javax.swing.JTextPane();
         jLabel24 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
-        jButtonEnviarMensagem = new javax.swing.JButton();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        jButtonAddCarro = new javax.swing.JButton();
+        jCambio = new javax.swing.JComboBox<>();
         jLabel34 = new javax.swing.JLabel();
         jScrollPane8 = new javax.swing.JScrollPane();
-        jTextPane8 = new javax.swing.JTextPane();
+        jPotencia = new javax.swing.JTextPane();
         jLabel35 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        jCombustivel = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1200, 655));
@@ -648,20 +651,20 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
         jLabel23.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel23.setText("Marca");
 
-        jTextPane2.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jScrollPane2.setViewportView(jTextPane2);
+        jMarca.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jScrollPane2.setViewportView(jMarca);
 
-        jTextPane7.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jScrollPane7.setViewportView(jTextPane7);
+        jModelo.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jScrollPane7.setViewportView(jModelo);
 
-        jTextPane5.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jScrollPane5.setViewportView(jTextPane5);
+        jDescricao.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jScrollPane5.setViewportView(jDescricao);
 
-        jTextPane3.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jScrollPane3.setViewportView(jTextPane3);
+        jAno.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jScrollPane3.setViewportView(jAno);
 
-        jTextPane4.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jScrollPane4.setViewportView(jTextPane4);
+        jPreco.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jScrollPane4.setViewportView(jPreco);
 
         jLabel24.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel24.setText("Preço");
@@ -678,29 +681,29 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
         jLabel30.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel30.setText("Modelo");
 
-        jButtonEnviarMensagem.setBackground(new java.awt.Color(130, 255, 212));
-        jButtonEnviarMensagem.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jButtonEnviarMensagem.setText("Adicionar carro");
-        jButtonEnviarMensagem.addActionListener(new java.awt.event.ActionListener() {
+        jButtonAddCarro.setBackground(new java.awt.Color(130, 255, 212));
+        jButtonAddCarro.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jButtonAddCarro.setText("Adicionar carro");
+        jButtonAddCarro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonEnviarMensagemActionPerformed(evt);
+                jButtonAddCarroActionPerformed(evt);
             }
         });
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "...", "Automático", "Manual" }));
-        jComboBox1.setToolTipText("");
+        jCambio.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "...", "Automático", "Manual" }));
+        jCambio.setToolTipText("");
 
         jLabel34.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel34.setText("Potência");
 
-        jTextPane8.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jScrollPane8.setViewportView(jTextPane8);
+        jPotencia.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jScrollPane8.setViewportView(jPotencia);
 
         jLabel35.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
         jLabel35.setText("Combustível");
 
-        jComboBox2.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "...", "Gasolina", "Flex" }));
+        jCombustivel.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+        jCombustivel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "...", "Gasolina", "Flex" }));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -728,10 +731,10 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                             .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(17, 17, 17)
                             .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButtonAddCarro, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jCambio, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jLabel35)
-                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jCombustivel, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(48, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -760,7 +763,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel33)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jCambio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel34)
                 .addGap(2, 2, 2)
@@ -768,7 +771,7 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                 .addGap(6, 6, 6)
                 .addComponent(jLabel35)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jCombustivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(6, 6, 6)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel24)
@@ -778,11 +781,11 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(jButtonEnviarMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addComponent(jButtonAddCarro, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 120, 260, 470));
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 120, 260, 490));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -821,9 +824,39 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButtonAgendActionPerformed
 
-    private void jButtonEnviarMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEnviarMensagemActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonEnviarMensagemActionPerformed
+    private void jButtonAddCarroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAddCarroActionPerformed
+        int year = Calendar.getInstance().get(Calendar.YEAR);
+
+        String marca = jMarca.getText();
+        String modelo = jModelo.getText();
+        String descricao = jDescricao.getText();
+        String cambio = (String) jCambio.getSelectedItem();
+        String potencia = jPotencia.getText();
+        String gasolina = (String) jCombustivel.getSelectedItem();
+
+        try {
+            int ano = Integer.parseInt(jAno.getText());
+            Double preco = Double.valueOf(jPreco.getText());
+
+            if (marca.isEmpty() || modelo.isEmpty() || descricao.isEmpty() || cambio.isEmpty() || potencia.isEmpty() || gasolina.isEmpty() || cambio.equals("...") || gasolina.equals("...")) {
+                JOptionPane.showMessageDialog(null, "Todos os campos devem ser preenchidos.", "Erro", JOptionPane.ERROR_MESSAGE);
+            } else if (ano > year + 1 || ano < year - 10) {
+                JOptionPane.showMessageDialog(null, "Preencha corretamente o ano!", "Erro", JOptionPane.ERROR_MESSAGE);
+            } else {
+                try {
+                    CarroDao carro = new CarroDao();
+
+                    carro.createCarro(marca, modelo, ano, cambio, potencia, gasolina, preco, descricao);
+                } catch (Exception e) {
+                    throw new RuntimeException("Erro na conexão: ", e);
+                }
+            }
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "Preencha o ano ou preço corretamente!", "Erro", JOptionPane.ERROR_MESSAGE);
+        }
+        
+        buscarCarros();
+    }//GEN-LAST:event_jButtonAddCarroActionPerformed
 
     private void comboBoxCarrosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxCarrosActionPerformed
         // TODO add your handling code here:
@@ -870,14 +903,16 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<String> comboBoxCarros;
+    private javax.swing.JComboBox<Carro> comboBoxCarros;
+    private javax.swing.JTextPane jAno;
+    private javax.swing.JButton jButtonAddCarro;
     private javax.swing.JButton jButtonAgend;
-    private javax.swing.JButton jButtonEnviarMensagem;
     private javax.swing.JButton jButtonInicio;
     private javax.swing.JButton jButtonNovidades;
     private javax.swing.JButton jButtonPromo;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jCambio;
+    private javax.swing.JComboBox<String> jCombustivel;
+    private javax.swing.JTextPane jDescricao;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel16;
@@ -903,6 +938,8 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabelLogoHS;
+    private javax.swing.JTextPane jMarca;
+    private javax.swing.JTextPane jModelo;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
@@ -917,6 +954,8 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JPanel jPanelColunaPesquisaUser;
     private javax.swing.JPanel jPanelHeaderAdmin;
     private javax.swing.JPanel jPanelInformacoesCarro;
+    private javax.swing.JTextPane jPotencia;
+    private javax.swing.JTextPane jPreco;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -932,12 +971,6 @@ public class HomeAdminHorizonMotors extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
     private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextPane jTextPane2;
-    private javax.swing.JTextPane jTextPane3;
-    private javax.swing.JTextPane jTextPane4;
-    private javax.swing.JTextPane jTextPane5;
-    private javax.swing.JTextPane jTextPane7;
-    private javax.swing.JTextPane jTextPane8;
     private javax.swing.JLabel lblAno;
     private javax.swing.JLabel lblCambio;
     private javax.swing.JLabel lblDescricao;

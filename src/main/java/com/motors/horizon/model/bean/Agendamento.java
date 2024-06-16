@@ -11,15 +11,25 @@ import java.sql.Date;
  * @author 823214424
  */
 public class Agendamento {
+    private int id_agendamento;
     private Date data_agendamento;
     private double hora_agendamento;
 
     public Agendamento() {
     }
 
-    public Agendamento(Date data_agendamento, double hora_agendamento) {
+    public Agendamento(int id_agendamento, Date data_agendamento, double hora_agendamento) {
+        this.id_agendamento = id_agendamento;
         this.data_agendamento = data_agendamento;
         this.hora_agendamento = hora_agendamento;
+    }
+
+    public int getId_agendamento() {
+        return id_agendamento;
+    }
+
+    public void setId_agendamento(int id_agendamento) {
+        this.id_agendamento = id_agendamento;
     }
 
     public Date getData_agendamento() {
@@ -37,4 +47,6 @@ public class Agendamento {
     public void setHora_agendamento(double hora_agendamento) {
         this.hora_agendamento = hora_agendamento;
     }
+
+    
 }

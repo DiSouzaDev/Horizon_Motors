@@ -107,10 +107,12 @@ public class Carro {
         this.descricao_carro = descricao_carro;
     }
 
-    
-
     @Override
     public String toString() {
         return marca_carro + " " + modelo_carro;
+    }
+    
+    public String getCambio(){
+        return cambio_carro;
     }
 }

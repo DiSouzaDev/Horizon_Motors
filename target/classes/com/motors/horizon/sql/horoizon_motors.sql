@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `Carro` (
 	`marca_carro` varchar(200) NOT NULL,
 	`modelo_carro` varchar(200) NOT NULL,
 	`ano_carro` int NOT NULL,
-	`cambio_carro` varchar(200) NOT NULL,
+	`cambio_carro` enum("Automático", "Manual") NOT NULL,
     `potencia_carro` varchar (200) NOT NULL,
     `gasolina_carro` varchar(200) NOT NULL,
 	`preco_carro` double NOT NULL,
@@ -29,10 +29,11 @@ CREATE TABLE IF NOT EXISTS `Carro` (
 
 CREATE TABLE IF NOT EXISTS `Agendamento` (
 	`id_agendamento` int AUTO_INCREMENT NOT NULL UNIQUE,
-	`data_agendamento` date NOT NULL,
-	`hora_agendamento` double NOT NULL,
+	`data_agendamento` varchar(200) NOT NULL,
+	`hora_agendamento` int NOT NULL,
 	`id_usuario` int NOT NULL,
 	`id_carro` int NOT NULL,
+	`id_funcionario` int NOT NULL,
 	PRIMARY KEY (`id_agendamento`)
 );
 
@@ -46,6 +47,7 @@ CREATE TABLE IF NOT EXISTS `Funcionarios` (
 
 ALTER TABLE `Agendamento` ADD CONSTRAINT `Agendamento_fk3` FOREIGN KEY (`id_usuario`) REFERENCES `Usuario`(`id_usuario`);
 ALTER TABLE `Agendamento` ADD CONSTRAINT `Agendamento_fk4` FOREIGN KEY (`id_carro`) REFERENCES `Carro`(`id_carro`);
+ALTER TABLE `Agendamento` ADD CONSTRAINT `Agendamento_fk5` FOREIGN KEY (`id_funcionario`) REFERENCES `Funcionarios`(`id_func`);
 ALTER TABLE `Funcionarios` ADD CONSTRAINT `Funcionarios_fk3` FOREIGN KEY (`id_carro`) REFERENCES `Carro`(`id_carro`);
 
 select * from Usuario;
