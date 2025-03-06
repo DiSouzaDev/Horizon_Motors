@@ -31,6 +31,20 @@ O projeto Horizon Motors é um software desenvolvido em Java, voltado para atend
 🎉 Resultado final
 </h2>
 
+<h3>Tela de Login</h3>
 
+![image](https://github.com/user-attachments/assets/308d66f3-cb1d-4c06-80e3-a54f2d96e3e2)
+
+<h3>Tela de Cadastro</h3>
+
+![image](https://github.com/user-attachments/assets/5c3d6c32-2101-4b4f-b80d-af633f81e3c8)
+
+<h3>Tela do Usuário Comum</h3>
+
+![image](https://github.com/user-attachments/assets/0eaaa337-5ee0-41ea-b7c5-e1bf357834f5)
+
+<h3>Tela do Administrador</h3>
+
+![image](https://github.com/user-attachments/assets/21133ada-f17a-411e-8137-042406e5b070)
 
 ### Muito obrigada pela sua atenção!
